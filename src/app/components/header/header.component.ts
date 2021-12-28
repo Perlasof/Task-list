@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   title:string = 'My Task List';
+  showAddTask : boolean = true;
+  
   constructor() { }
 
   ngOnInit(): void {

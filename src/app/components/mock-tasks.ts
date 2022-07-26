@@ -18,17 +18,15 @@ export const TASKS : Task[]= [
     id : 3 , 
     text : "Investigar sobre Boostrap" , 
     day : 'Agosto 5 a las 19:00 hs' ,
-    reminder : false ,
+    reminder : true ,
 
 },
 {
     id : 4 , 
     text : "Mirar mi serie favorita" , 
     day : 'Agosto 5 a las 21:00 hs' ,
-    reminder : false ,
+    reminder : true
 
 },
-
-
 
 ]
